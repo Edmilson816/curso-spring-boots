@@ -71,19 +71,19 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <scope>test</scope>
-        </dependency>
-<!-- https://mvnrepository.com/artifact/com.github.ferstl/depgraph-maven-plugin/ -->
-        <dependency>
-            <groupId>com.github.ferstl</groupId>
-            <artifactId>depgraph-maven-plugin</artifactId>
-            <version>4.0.2</version>
-        </dependency>
-        
+        </dependency> 
         <dependency>
           <groupId>org.mockito</groupId>
           <artifactId>mockito-core</artifactId>
           <scope>test</scope>
-        </dependency>		
+        </dependency>
+        <dependency>
+            <groupId>com.github.ferstl</groupId>
+            <artifactId>depgraph-maven-plugin</artifactId>
+            <version>4.0.2</version>
+       </dependency>
+                    
+        		
 	</dependencies>
 
 	<build>
